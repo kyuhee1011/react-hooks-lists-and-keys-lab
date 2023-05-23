@@ -5,7 +5,7 @@ function NavBar() {
   
   const projectData = links.map ((linkObj) => {
     return <a href= {`#${linkObj}`} key={linkObj}> {linkObj}</a>
-
+})
   return (
     <nav>
       {projectData}
